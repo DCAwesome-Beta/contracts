@@ -1,0 +1,59 @@
+{
+  "chains": [
+    {
+      "description": "Optimism Sepolia",
+      "chainId": 10005,
+      "rpc": "https://optimism-sepolia.blockpi.network/v1/rpc/public",
+      "tokenBridge": "0x99737Ec4B815d816c49A385943baf0380e75c0Ac",
+      "wormholeRelayer": "0x93BAD53DDfB6132b0aC8E37f6029163E63372cEE",
+      "wormhole": "0x31377888146f3253211EFEf5c676D41ECe7D58Fe",
+      "cctpTokenMessenger": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5",
+      "cctpMessageTransmitter": "0x7865fAfC2db2093669d92c0F33AeEF291086BEFD",
+      "USDC": "0x5fd84259d66Cd46123540766Be93DFE6D43130D7"
+    },
+    {
+      "description": "Arbitrum Sepolia",
+      "chainId": 10003,
+      "rpc": "https://sepolia-rollup.arbitrum.io/rpc",
+      "tokenBridge": "0xC7A204bDBFe983FCD8d8E61D02b475D4073fF97e",
+      "wormholeRelayer": "0x7B1bD7a6b4E61c2a123AC6BC2cbfC614437D0470",
+      "wormhole": "0x6b9C8671cdDC8dEab9c719bB87cBd3e782bA6a35",
+      "cctpTokenMessenger": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5",
+      "cctpMessageTransmitter": "0xaCF1ceeF35caAc005e15888dDb8A3515C41B4872",
+      "USDC": "0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d"
+    },
+    {
+      "description": "Ethereum Sepolia",
+      "chainId": 10002,
+      "rpc": "https://rpc2.sepolia.org",
+      "tokenBridge": "0xDB5492265f6038831E89f495670FF909aDe94bd9",
+      "wormholeRelayer": "0x7B1bD7a6b4E61c2a123AC6BC2cbfC614437D0470",
+      "wormhole": "0x4a8bc80Ed5a4067f1CCf107057b8270E0cC11A78",
+      "cctpTokenMessenger": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5",
+      "cctpMessageTransmitter": "0x7865fAfC2db2093669d92c0F33AeEF291086BEFD",
+      "USDC": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238"
+    },
+    {
+      "description": "Avalanche testnet fuji",
+      "chainId": 6,
+      "rpc": "https://api.avax-test.network/ext/bc/C/rpc",
+      "tokenBridge": "0x61E44E506Ca5659E6c0bba9b678586fA2d729756",
+      "wormholeRelayer": "0xA3cF45939bD6260bcFe3D66bc73d60f19e49a8BB",
+      "wormhole": "0x7bbcE28e64B3F8b84d876Ab298393c38ad7aac4C",
+      "cctpTokenMessenger": "0xeb08f243e5d3fcff26a9e38ae5520a669f4019d0",
+      "cctpMessageTransmitter": "0xa9fb1b3009dcb79e2fe346c16a604b8fa8ae0a79",
+      "USDC": "0x5425890298aed601595a70AB815c96711a31Bc65"
+    },
+    {
+      "description": "Base Sepolia",
+      "chainId": 10004,
+      "rpc": "https://base-sepolia.blockpi.network/v1/rpc/public",
+      "tokenBridge": "0x86F55A04690fd7815A3D802bD587e83eA888B239",
+      "wormholeRelayer": "0x93BAD53DDfB6132b0aC8E37f6029163E63372cEE",
+      "wormhole": "0x79A1027a6A159502049F10906D333EC57E95F083",
+      "cctpTokenMessenger": "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5",
+      "cctpMessageTransmitter": "0x7865fAfC2db2093669d92c0F33AeEF291086BEFD",
+      "USDC": "0x036CbD53842c5426634e7929541eC2318f3dCF7e"
+    }
+  ]
+}
