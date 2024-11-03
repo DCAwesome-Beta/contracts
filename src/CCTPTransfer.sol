@@ -48,7 +48,7 @@ contract CCTPTransfer is CCTPReceiver, CCTPSender {
 
     function sendCrossChainDeposit(
         uint16 targetChain,
-        address targetHelloUSDC,
+        address targetCCTPTransfer,
         address recipient,
         uint256 amount
     ) public payable {
@@ -63,7 +63,7 @@ contract CCTPTransfer is CCTPReceiver, CCTPSender {
         bytes memory payload = abi.encode(recipient);
         sendUSDCWithPayloadToEvm(
             targetChain,
-            targetHelloUSDC, // address (on targetChain) to send token and payload to
+            targetCCTPTransfer, // address (on targetChain) to send token and payload to
             payload,
             0, // receiver value
             GAS_LIMIT,
